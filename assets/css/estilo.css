@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0;}
-footer .row footerBg paddingTB {
+footer {
   background-color: lightblue; }
 
 h1 {
@@ -8,7 +8,11 @@ h1 {
     h1 {
       font-size: 40px; } }
 
-p {
-  color: green;
-  font-weight: bold;
+h1 {text-align: center;}
+
+.slider{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
 }

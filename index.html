@@ -4,8 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Página dedicada a la difusión de la cultura, la filosofía y el arte">
+    <meta name="description" content="Sitio dedicado a la difusión de la cultura, la filosofía y el arte">
     <meta name="keywords" content="cursos atenea filosofia arte historia cultura clases">
+
 
     <!-- Bootstrap CSS -->
 <!--     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
@@ -14,13 +15,22 @@
     <!-- Mi CSS -->
     <link rel="stylesheet" href="assets/css/estilo.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');</style>
+
     <title>Git Power</title>
   </head>
   <body>
-    <!-- nav + logo -->
+    <!-- logo + nav -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-10 col-xs-10"> 
+        <div class="col-lg-2 col-xs-2">
+         <img src="assets/img/ateneaVector.jpg" alt="ateVec" width="50" height="100">
+        </div>
+        <div class="col-lg-10 col-xs-10">
+          <!-- inicio nav -->
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">ATENEA</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,61 +56,14 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-2 col-xs-2">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/img/ateneaVector.jpg" alt="ateVec" width="50" height="100"></button>
-          <div class="dropdown">
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- slider -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/img/parlamento.jpg" class="d-block w-100" alt="parlamento budapest" width="1080" height="700">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/nave.jpg" class="d-block w-100" alt="nave iglesia" width="1080" height="700">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/milan.jpg" alt="arquitectura" width="1600" height="700">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/notreDame.jpg" alt="arquitectura" width="1600" height="700">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Siguiente</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <!-- section contenido -->
     <div class="container">
       <div class="row paddingTB">
-        <section class="col-lg-6 col-xs-12">
+        <section class="col-lg-12 col-xs-12">
           <h1>ATENEA</h1>
+        </section>
+        <section class="col-lg-6 col-xs-12">
           <p>Una 'evidencia (del latín, ēvidens, 'visible, evidente, manifiesto') es un conocimiento que se nos aparece intuitivamente de tal manera que podemos afirmar la validez de su contenido, como verdadero, con certeza, sin sombra de duda. En un sentido más restringido se denomina evidencia a cualquier conocimiento o prueba que corrobora la verdad de una proposición.</p>
         </section>
         <section class="col-lg-6 col-xs-2">
@@ -108,17 +71,57 @@
         </section>
       </div>
     </div>
+
+    <!-- slider -->
+    <div class="slider">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/parlamento.jpg" class="d-block w-100" alt="parlamento budapest" width="1080" height="700">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/nave.jpg" class="d-block w-100" alt="nave iglesia" width="1080" height="700">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/milan.jpg" alt="arquitectura" width="1600" height="700">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/notreDame.jpg" alt="arquitectura" width="1600" height="700">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- footer -->
     <div class="container-fluid">
-      <footer class="row footerBg paddingTB">
-        <div class="col-lg-2 col-xs-12">
+      <footer class="row">
+        <div class="col-lg-2 col-xs-2">
           <img src="assets/img/ateneaVector.jpg" alt="ateVec" width="50" height="100">
         </div>
         <div class="col-lg-8 col-xs-8">
-          <a href="https://www.gmail.com" target="#"><img src="assets/img/mail.jpg" alt="mail" width="50px" height="50px"></a>
-          <a href="https://www.facebook.com" target="#"><img src="assets/img/face.png" alt="face" width="50px" height="50px"></a>
-          <a href="https://www.instagram.com" target="#"><img src="assets/img/insta.png" alt="insta" width="50px" height="50px"></a>
-          <a href="https://www.youtube.com" target="#"><img src="assets/img/youtube.png" alt="youtube" width="50px" height="50px"></a>
+          <a href="https://www.gmail.com" target="#"><img src="assets/img/mailsf.png" alt="mail" width="50px" height="50px"></a>
+          <a href="https://www.facebook.com" target="#"><img src="assets/img/fb.jpg" alt="face" width="50px" height="50px"></a>
+          <a href="https://www.instagram.com" target="#"><img src="assets/img/instagramsf.png" alt="insta" width="50px" height="50px"></a>
+          <a href="https://www.youtube.com" target="#"><img src="assets/img/youtube.png" alt="youtube" width="50px" height="40px"></a>
         </div>
         <div class="col-lg-2 col-xs-2">
           <a href="views/contacto.html"><h3>CONTACTO</h3></a>
